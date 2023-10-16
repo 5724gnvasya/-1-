@@ -1,0 +1,190 @@
+#profil {
+    color: var(--040013-black-main, #040013);
+
+    /* H3 */
+    font-family: Museo Sans Cyrl;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    /* 125% */
+    letter-spacing: -0.32px;
+    color: #040013;
+
+}
+
+#osebe {
+    color: #CCC;
+
+    /* P bold */
+    font-family: Museo Sans Cyrl;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: -0.16px;
+
+
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+}
+
+#but1 {
+    color: var(--6-b-39-cb-main-purple-hover, #6B39CB);
+
+    /* Small */
+    font-family: Museo Sans Cyrl;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: -0.14px;
+}
+
+#avatar_pr {
+    color: var(--000-black, #000);
+    text-align: center;
+
+    /* P bold */
+    font-family: Museo Sans Cyrl;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: -0.16px;
+}
+
+так будет выглядеть твоя будущая ... {
+    color: var(--5-d-5-b-66-secondary-black, #5D5B66);
+
+    /* Small */
+    font-family: Museo Sans Cyrl;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: -0.14px;
+}
+
+.shrift {
+    color: var(--040013-black-main, #040013);
+
+    /* H3 */
+    font-family: Museo Sans Cyrl;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    /* 125% */
+    letter-spacing: -0.32px;
+}
+
+#file-input {
+    display: flex;
+    padding: 8px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: var(--7953-c-3-purple-main, #7953C3);
+    width: 144px;
+    height: 36px;
+
+}
+
+.form {
+    display: flex;
+    width: 366px;
+    padding: 16px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+    border-radius: 8px;
+    background: #F4F4F6;
+}
+
+#support {
+    color: var(--7953-c-3-purple-main, #7953C3);
+
+    /* H2 */
+    font-family: Museo Sans Cyrl;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    /* 120% */
+    letter-spacing: -0.8px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 0;
+}
+
+.social-icons>li {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.social-icons a {
+    position: relative;
+    background-color: #eee;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: background-color .3s ease-in-out;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: .25rem;
+}
+
+.social-icons a:hover {
+    background-color: #e0e0e0;
+}
+
+.social-icons a::before {
+    content: "";
+    position: absolute;
+    width: 1.2rem;
+    height: 1.2rem;
+    left: .65rem;
+    top: .65rem;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+.social-icons .social-icon-vk::before {
+    background-image: url("\img\Frame 9600.svg");
+}
+
+.social-icons .social-icon-telegram::before {
+    background-image: url("C:\Users\chern\OneDrive\Рабочий стол\Домашнее задание 1 для ОШ\src\img\Frame 9601.svg");
+}
+
+#podpol {
+    color: var(--, #AAA);
+
+
+    /* Small */
+    font-family: Museo Sans Cyrl;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.14px;
+}
