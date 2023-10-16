@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link type="text/css" rel="stylesheet" href=".\css\style.css">
+</head>
+
+<body>
+    <header>
+        <img src="\src\img\Слой 2.svg" alt="Logo">
+
+
+    </header>
+    <section>
+
+        <button id="but1" class="buttons">На главную </button>
+        <button id="but1" class="buttons">Выйти из аккаунта</button>
+
+        <h1 id="profil" class="shrift"><b>Создание профиля</b></h1>
+        <h2 id="osebe" class="shrift">/ О себе</h2>
+
+    </section>
+
+    <section>
+        <h id="avatar_pr" class="shrift"><b>Аватар профиля</b></h>
+        <div>
+            <!--<input id="file-input" type="file" name="file" multiple>-->
+            <label id="file-input" class="shrift">Загрузить</label>
+            <input type="file" name="file" multiple>
+        </div>
+
+
+        <p id="osebe">Загрузите фотографию весом не более 10 мб</p>
+        <section>
+            <class="form">
+                <p><input name="name" id="name" type="text" placeholder="Имя и фамилия"></p>
+
+                <input type="radio" name="gender" value="male"> Парень<br>
+                <input type="radio" name="gender" value="female">Девушка<br>
+                <input type="date" />
+                <p><input type="text" placeholder="Телеграм"></p>
+                <p><input type="text" placeholder="Номер телефона"></p>
+                <!--<label for="comment"> Опишите ваши эмоции от ввода пароля</label>-->
+
+                <textarea name="comment" id="comment" cols="30" rows="5" placeholder="о себе"></textarea>
+                <p><label for="comment" id="osebe">Например: Редко готовлю, но люблю ботать на кухне по ночам. Хочу
+                        завести собаку.
+                        Очень люблю читать, играть в хорроры и смотреть аниме. Открыт к общению и взаимопомощи
+                        :)</label></p>
+
+                </form>
+        </section>
+
+
+</body>
+
+
+
+<footer>
+    <h id="support">Support@homeet.com</h>
+    <p id="osebe">Техническая поддержка</p>
+    <h id="pol"> О сервисе</h>
+    <h id="pol"> Контакты</h>
+    <h id="pol"> Политика конфиденциальности</h>
+    <ul class="social-icons">
+        <li><a class="social-icon-telegram" href="#" title="TG" target="_blank" rel="noopener"></a></li>
+        <li><a class="social-icon-vk" href="#C:\Users\chern\OneDrive\Рабочий стол\Домашнее задание 1 для ОШ\src\img\Frame 9601.svg" title="VK" target="_blank" rel="noopener"></a></li>
+        
+    </ul>
+
+</footer>
+<h id = "osebe">Предложение не является публичной офертой. Сервис не несет ответственности за действия пользователей, достоверность информации и т.д.</h>
+<h id = "podpol">Сделано в бвср</h>
+</html>
