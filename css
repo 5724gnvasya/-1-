@@ -111,6 +111,7 @@
     background: #F4F4F6;
 }
 
+
 #support {
     color: var(--7953-c-3-purple-main, #7953C3);
 
@@ -169,11 +170,11 @@
 
 
 .social-icons .social-icon-vk::before {
-    background-image: url("\img\Frame 9600.svg");
+    background-image: url("\src\img\Frame 9600.svg");
 }
 
 .social-icons .social-icon-telegram::before {
-    background-image: url("C:\Users\chern\OneDrive\Рабочий стол\Домашнее задание 1 для ОШ\src\img\Frame 9601.svg");
+    background-image: url("\src\img\Frame 9601.svg");
 }
 
 #podpol {
@@ -187,4 +188,58 @@
     font-weight: 400;
     line-height: 20px;
     letter-spacing: -0.14px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.container {
+    width: 100%;
+}
+
+.container div{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+
+.container div:nth-child(1) {
+   float:left;
+}
+
+.container div:nth-child(2) {
+   float:right;
+}
+
+#left {
+    float: left;
+    width: 45%;
+    overflow: hidden;
+}
+
+#right {
+    width: 45%;
+    overflow: hidden;
+}
+
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url("/src/fonts/MuseoSansCyrl900Italic.otf") format("opentype");
+}
+
+.black_letters {
+    color: var(--040013-black-main, #040013);
+
+    /* P bold */
+    font-family: Museo Sans Cyrl;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: -0.16px;
+    height: 24px;
+    align-self: stretch;
 }
