@@ -5,104 +5,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link type="text/css" rel="stylesheet" href=".\css\style.css">
 </head>
 
-<id="vse" id="head">
-
+<body>
     <header>
-        <img id="head" src="\src\img\Слой 2.svg" alt="Logo">
-
+        <img src="\src\img\Слой 2.svg" alt="Logo">
+        <button id="but1" class="buttons" style="float:right">Выйти из аккаунта</button>
 
     </header>
     <section>
 
         <button id="but1" class="buttons">На главную </button>
-        <button id="but1" class="buttons">Выйти из аккаунта</button>
 
-        <h1 id="profil" class="shrift"><b>Создание профиля</b>
-            <h2 id="osebe" class="shrift">/ О себе</h2>
-        </h1>
-        <!--<h2 id="osebe" class="shrift">/ О себе</h2>-->
+
+        <h1 id="profil" class="shrift"><b>Создание профиля</b></h1>
+        <h2 id="osebe" class="shrift">/ О себе</h2>
 
     </section>
 
-    <body>
-        <div class="wrapper">
-            <div class="container">
 
-
-                <section>
-                    <h id="avatar_pr" class="shrift"><b>Аватар профиля</b></h>
-                    <div>
-                        <!--<input id="file-input" type="file" name="file" multiple>-->
-                        <label id="file-input" class="shrift">Загрузить</label>
-                        <input type="file" name="file" multiple>
-                    </div>
-
-
-                    <p id="osebe">Загрузите фотографию весом не более 10 мб</p>
-                    <section>
-                        <class="form">
-                            <p><input name="name" id="name" type="text" placeholder="Имя и фамилия"></p>
-
-                            <input type="radio" name="gender" value="male"> Парень<br>
-                            <input type="radio" name="gender" value="female">Девушка<br>
-                            <input type="date" />
-
-                            <p><input type="text" placeholder="Телеграм"></p>
-                            <p><input type="text" placeholder="Номер телефона"></p>
-                            <!--<label for="comment"> Опишите ваши эмоции от ввода пароля</label>-->
-
-                            <textarea name="comment" id="comment" cols="30" rows="5" placeholder="о себе"></textarea>
-                            <p><label for="comment" id="osebe">Например: Редко готовлю, но люблю ботать на кухне по
-                                    ночам.
-                                    Хочу
-                                    завести собаку.
-                                    Очень люблю читать, играть в хорроры и смотреть аниме. Открыт к общению и
-                                    взаимопомощи
-                                    :)</label></p>
-
-                            </form>
-                    </section>
+    <section>
+        <div style="float:left" class="block_1">
+            <div class="avatar_pr">
+                <h id="avatar_pr" class="shrift"><b>Аватар профиля</b></h>
+                <div>
+                    <!--<input id="file-input" type="file" name="file" multiple>-->
+                    <label id="file-input" class="shrift">Загрузить</label>
+                    <!--<input type="file" name="file" multiple>-->
+                </div>
+                <p id="osebe">Загрузите фотографию весом не более 10 мб</p>
             </div>
+            <section>
+                <class="form">
+                    <p><input name="name" id="name" type="text" class="shrift" placeholder="Имя и фамилия"></p>
 
+                    <input type="radio" name="gender" value="male" class="shrift"> Парень<br>
+                    <input type="radio" name="gender" class="shrift" value="female">Девушка<br>
+                    <input type="date" />
+                    <p><input type="text" class="shrift" placeholder="Телеграм"></p>
+                    <p><input type="text" class="shrift" placeholder="Номер телефона"></p>
+                    <!--<label for="comment"> Опишите ваши эмоции от ввода пароля</label>-->
 
-            <div class="container" id="osebe">
+                    <p><input type="text" class="shrift" placeholder="О себе"></p>
+                    <p><label for="comment" id="osebe">Например: Редко готовлю, но люблю ботать на кухне по ночам. Хочу
+                            завести собаку.
+                            Очень люблю читать, играть в хорроры и смотреть аниме. Открыт к общению и взаимопомощи
+                            :)</label></p>
+
+                    </form>
+            </section>
+        </div>
+
+        <section class="profil_fefe" class="block_2">
+            <div id="osebe">
                 Так будет выглядеть твоя будущая страница
                 <p>
-                <table>
+                <table class="profil_fefe">
                     there should be sasha frolov
                 </table>
                 </p>
-                <p class="black_letters">Мы совсем ничего про тебя не знаем</p>
-                <p id="osebe"> Расскажи о себе. Люди пишут тем, кому доверяют. Тем более при поиске соседа></p>
+                <section class="profil_fefe">
+                    <p class="black_letters">Мы совсем ничего про тебя не знаем</p>
+                    <p id="osebe"> Расскажи о себе. Люди пишут тем, кому доверяют. Тем более при поиске соседа></p>
+                </section>
             </div>
-        </div>
-    </body>
-    </body>
+        </section>
+    </section>
+</body>
 
 
 
+<footer>
+    <h id="support">Support@homeet.com</h>
+    <p id="osebe">Техническая поддержка</p>
+    <h id="pol"> О сервисе</h>
+    <h id="pol"> Контакты</h>
+    <h id="pol"> Политика конфиденциальности</h>
+    <ul class="social-icons">
+        <li><a class="social-icon-telegram" href="#" title="TG" target="_blank" rel="noopener"></a></li>
+        <li><a class="social-icon-vk"
+                href="#C:\Users\chern\OneDrive\Рабочий стол\Домашнее задание 1 для ОШ\src\img\Frame 9601.svg" title="VK"
+                target="_blank" rel="noopener"></a></li>
 
+    </ul>
 
-    <footer>
-        <h id="support">Support@homeet.com</h>
-        <p id="osebe">Техническая поддержка</p>
-        <h id="pol"> О сервисе</h>
-        <h id="pol"> Контакты</h>
-        <h id="pol"> Политика конфиденциальности</h>
-        <ul class="social-icons">
-            <li><a class="social-icon-telegram" href="#" title="TG" target="_blank" rel="noopener"></a></li>
-            <li><a class="social-icon-vk"
-                    href="#C:\Users\chern\OneDrive\Рабочий стол\Домашнее задание 1 для ОШ\src\img\Frame 9601.svg"
-                    title="VK" target="_blank" rel="noopener"></a></li>
-
-        </ul>
-
-    </footer>
-    <h id="osebe">Предложение не является публичной офертой. Сервис не несет ответственности за действия пользователей,
-        достоверность информации и т.д.</h>
-    <h id="podpol">Сделано в бвср</h>
+</footer>
+<h id="osebe">Предложение не является публичной офертой. Сервис не несет ответственности за действия пользователей,
+    достоверность информации и т.д.</h>
+<h id="podpol">Сделано в бвср</h>
 
 </html>
