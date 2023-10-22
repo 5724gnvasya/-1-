@@ -10,90 +10,150 @@
 </head>
 
 <body>
-    <header>
-        <img src="\src\img\Слой 2.svg" alt="Logo">
-        <button id="but1" class="buttons" style="float:right">Выйти из аккаунта</button>
+    <header class="otst_0">
+        <img src=".\img\Слой 2.svg" alt="Logo">
+        <button id="but1" class="v_is_akk" style="float:right">Выйти из аккаунта</button>
 
     </header>
-    <section>
-
-        <button id="but1" class="buttons">На главную </button>
-
-
-        <h1 id="profil" class="shrift"><b>Создание профиля</b></h1>
-        <h2 id="osebe" class="shrift">/ О себе</h2>
-
-    </section>
-
-
-    <section>
-        <div style="float:left" class="block_1">
-            <div class="avatar_pr">
-                <h id="avatar_pr" class="shrift"><b>Аватар профиля</b></h>
-                <div>
-                    <!--<input id="file-input" type="file" name="file" multiple>-->
-                    <label id="file-input" class="shrift">Загрузить</label>
-                    <!--<input type="file" name="file" multiple>-->
-                </div>
-                <p id="osebe">Загрузите фотографию весом не более 10 мб</p>
-            </div>
-            <section>
-                <class="form">
-                    <p><input name="name" id="name" type="text" class="shrift" placeholder="Имя и фамилия"></p>
-
-                    <input type="radio" name="gender" value="male" class="shrift"> Парень<br>
-                    <input type="radio" name="gender" class="shrift" value="female">Девушка<br>
-                    <input type="date" />
-                    <p><input type="text" class="shrift" placeholder="Телеграм"></p>
-                    <p><input type="text" class="shrift" placeholder="Номер телефона"></p>
-                    <!--<label for="comment"> Опишите ваши эмоции от ввода пароля</label>-->
-
-                    <p><input type="text" class="shrift" placeholder="О себе"></p>
-                    <p><label for="comment" id="osebe">Например: Редко готовлю, но люблю ботать на кухне по ночам. Хочу
-                            завести собаку.
-                            Очень люблю читать, играть в хорроры и смотреть аниме. Открыт к общению и взаимопомощи
-                            :)</label></p>
-
-                    </form>
-            </section>
+    <div class="main_body">
+        <button id="but1">На главную </button>
+        <div class="shapka">
+            <div class="shrift_sozd" class="block">Создание профиля</div>
+            <div class="osebe" align="bottom">/ О себе</div>
         </div>
 
-        <section class="profil_fefe" class="block_2">
-            <div id="osebe">
-                Так будет выглядеть твоя будущая страница
-                <p>
-                <table class="profil_fefe">
-                    there should be sasha frolov
-                </table>
-                </p>
-                <section class="profil_fefe">
-                    <p class="black_letters">Мы совсем ничего про тебя не знаем</p>
-                    <p id="osebe"> Расскажи о себе. Люди пишут тем, кому доверяют. Тем более при поиске соседа></p>
+        <div class="progress-bar">
+            <div class="progress-bar-inner"></div>
+        </div>
+
+
+        <section id="wrapper">
+            <div class="add_f" class="page_block">
+                <div class="avatar_pr">
+                    <h class="shrift" id="avatar_centr"><b>Аватар профиля</b></h>
+                    <div>
+                        <!--<input id="file-input" type="file" name="file" multiple>-->
+                        <label id="file-input" class="shrift" style="color: white" А>Загрузить</label>
+                        <!--<input type="file" name="file" multiple>-->
+                    </div>
+                    <p class="osebe" id="shrift_zagruz_ph">Загрузите фотографию весом не более 10 мб</p>
+                </div>
+                <form class="form">
+                    <div class="form__group">
+                        <input class="form__input" placeholder=" ">
+                        <label name="name" class="form__label" placeholder="Имя и фамилия">Имя и фамилия</label>
+                    </div>
+                    <div id="pol">
+                        <div id="same_line">
+                            <input type="radio" name="gender" value="male" class="shrift">
+                            <label for="male">Парень</label>
+                        </div>
+                        <div id="same_line_1">
+                            <input type="radio" name="gender" value="female" class="shrift">
+                            <label for="female">Девушка</label>
+                        </div>
+
+                    </div>
+
+
+                    <input name="date_of_birth" type="date" class="calend" />
+
+
+                    <div class="form__group">
+                        <input name="tg" class="form__input" placeholder=" ">
+                        <label class="form__label" placeholder="Телеграм">Телеграм</label>
+                    </div>
+                    <div class="form__group">
+                        <input name="nom_tel" class="form__input" placeholder=" ">
+                        <label class="form__label" placeholder="Номер телефона">Номер телефона</label>
+                    </div>
+                    <div class="form__group">
+                        <input name="osebe" class="form__input" placeholder=" ">
+                        <label class="form__label" placeholder="О себе">О себе</label>
+                    </div>
+                    <div class="ottst">
+                        <p><label name="info" for="comment" class="osebe">Например: Редко готовлю, но люблю ботать на
+                                кухне по ночам.
+                                Хочу завести собаку. Очень люблю читать, играть в хорроры и
+                                смотреть аниме. Открыт к общению и взаимопомощи
+                                :)</label>
+                        </p>
+                    </div>
+                    <script src="./script.js"></script>
+                </form>
+            </div>
+            <div class="shir_2_bl">
+                <p class="tak_b_v">Так будет выглядеть твоя будущая страница</p>
+                <div class="page_block_3">
+
+                    <div class="page_block">
+                        <img src=".\img\фото мини.svg" alt="someone's_photo" width=" 140">
+                        <!-- <button class="shrift" class = "pokaz_k">Показать контакты</button> -->
+                        <label class="file-input_1">Показать контакты</label>
+                    </div>
+
+                    <div id="right_side_2" class="page_block" class="block">
+                        <h1 style="font-size: 25px;" class="shrift">Саша Фефелов</h1>
+                        <div class="osebe">
+                            Парень
+                            <img src=".\img\Ellipse 14.svg">
+                            21
+                            год
+                            <p class="osebe">Мне очень нравится устраивать вечеринки, дебоширить и мазать с...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="page_block_4">
+                    <div class="row_item">
+                        <div class="black_letters">Мы совсем ничего про тебя не знаем</div>
+                        <div class="rask_osebe">Расскажи о себе.</div>
+                        <div class="rask_osebe">Люди пишут тем, кому доверяют. Тем более при поиске соседа</div>
+                    </div>
+
+                    <div><img src=".\img\b9fc55bf0fb79212e3c33ca70533374a.jpg" alt="sad face" height="100px"
+                            width="85px">
+                    </div>
+
                 </section>
             </div>
         </section>
-    </section>
+        <button class="form__button">Продолжить</button>
+    </div>
+    
+
+
 </body>
 
 
 
-<footer>
+
+
+
+
+
+
+
+<footer class="footer">
     <h id="support">Support@homeet.com</h>
-    <p id="osebe">Техническая поддержка</p>
-    <h id="pol"> О сервисе</h>
-    <h id="pol"> Контакты</h>
-    <h id="pol"> Политика конфиденциальности</h>
+    <p class="osebe">Техническая поддержка</p>
+    <h id="pol" class="black_letters"> О сервисе</h>
+    <h id="pol" class="black_letters"> Контакты</h>
+    <h id="pol" class="black_letters"> Политика конфиденциальности</h>
     <ul class="social-icons">
         <li><a class="social-icon-telegram" href="#" title="TG" target="_blank" rel="noopener"></a></li>
+        <img src=".\img\tg.svg" alt="telegram">
         <li><a class="social-icon-vk"
                 href="#C:\Users\chern\OneDrive\Рабочий стол\Домашнее задание 1 для ОШ\src\img\Frame 9601.svg" title="VK"
                 target="_blank" rel="noopener"></a></li>
 
     </ul>
 
+
+    <h class="osebe">Предложение не является публичной офертой. Сервис не несет ответственности за действия
+        пользователей,
+        достоверность информации и т.д.</h>
+    <h id="podpol">Сделано в бвср</h>
 </footer>
-<h id="osebe">Предложение не является публичной офертой. Сервис не несет ответственности за действия пользователей,
-    достоверность информации и т.д.</h>
-<h id="podpol">Сделано в бвср</h>
 
 </html>
